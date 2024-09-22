@@ -6,9 +6,9 @@
   },
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsup",
+    "build": "tsc",
     "clean": "rm -rf dist",
-    "prepublish": "tsup",
+    "prepublish": "npm run clean && npm run build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -28,7 +28,6 @@
     "@storybook/test": "^8.3.2",
     "@types/node": "^22.5.5",
     "storybook": "^8.3.2",
-    "tsup": "^8.2.4",
     "typescript": "^5.6.2"
   },
   "dependencies": {
