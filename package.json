@@ -14,7 +14,7 @@
   },
   "author": "Jesse Brooklyn Hannah",
   "license": "AGPL-3.0-or-later",
-  "description": "",
+  "description": "Common styles and components for Budge.",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.9.0",
     "@storybook/addon-essentials": "^8.3.2",

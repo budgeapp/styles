@@ -1,5 +1,7 @@
 # Styles for Budge
 
+Common styles and components for Budge.
+
 ## Licensing
 
 Copyright © 2024 Jesse Brooklyn Hannah <brooke@jbhannah.net>. Licensed under the terms
